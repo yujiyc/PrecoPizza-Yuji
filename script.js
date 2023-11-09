@@ -7,8 +7,6 @@ var saida = document.getElementById("idOut")
 var tableBody = document.querySelector("table tbody");
 var tableHead = document.querySelector("table thead");
 
-
-// var form = document.getElementById("idForm")
 document.querySelector('form').addEventListener('submit', function (e) {
     e.preventDefault()
     console.log('ue');
