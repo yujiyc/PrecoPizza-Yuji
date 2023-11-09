@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precificação de Pizzas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Precificação de Pizzas</h1>
+    <form class="form" method="POST">
+        <div class="input">
+            <input type="text" id="idNome" placeholder="Nome Comercial">
+        </div>
+        
+        <div class="input">
+            <input type="number" id="idTamanho" placeholder="Tamanho (cm)">
+        </div>
+
+        <div class="input">
+            <input type="number" id="idPreco" placeholder="Preço">
+        </div>
+
+        <div class="buttons">
+            <input type="submit" value="Calcular">
+            <button id="idBtRelatorio">Relatório</button>
+        </div>
+    </form>
+
+    <!-- Área de exibição de erros -->
+    <output id="idOut"></output>
+
+    <!-- Relátorio em uma tabela -->
+    <table id="idTabelaPizza">
+        <thead>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+
+<script src="./script.js"></script>
+
+</html>

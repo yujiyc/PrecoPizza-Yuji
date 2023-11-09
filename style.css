@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.buttons input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button {
+    background-color: #555555;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+#idOut {
+    display: block;
+    margin: 10px auto;
+    font-size: 18px;
+    color: red;
+    text-align: center;
+}
+
+table {
+    max-width: 100%;
+    margin: 20px 0;
+    border-radius: 5px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+table thead {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+
+table th {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+    margin: 20px 0;
+    font-size: 24px;
+}
